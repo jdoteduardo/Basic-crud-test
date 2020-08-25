@@ -10,7 +10,6 @@ Resumo do app
 
 ## Como executar o projeto
 
-* passo 1
 - Clonar o github
 - Abrir o projeto na pasta API e executar o comando dotnet run
 - Abrir o projeto na pasta web e executar o comando npm i para baixar todas as dependências do projeto e em seguida npm start
