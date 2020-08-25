@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <EnableDefaultContentItems>false</EnableDefaultContentItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.0" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.1.2" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql.Design" Version="1.1.2" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.6.0" />
+    <Content Include="Models\InventoryContext.cs" />
+    <Content Include="Models\Produtos.cs" />
+    <Content Include="Models\Usuarios.cs" />
+    <Content Include="Controllers\ProdutosController.cs" />
+    <Content Include="Startup.cs" />
+    <Content Include="appsettings.json" />
+    <Content Include="API.db" />
+    <Content Include="_appsettings.Development.json" />
+    <Content Include="Controllers\TokenController.cs" />
+    <Content Include="Models\APIContext.cs" />
+    <Content Include="Controllers\IReactAdminController" />
+  </ItemGroup>
+</Project>

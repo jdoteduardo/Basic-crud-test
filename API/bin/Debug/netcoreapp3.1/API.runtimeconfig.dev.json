@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\zeedu\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\zeedu\\.nuget\\packages"
+    ]
+  }
+}
